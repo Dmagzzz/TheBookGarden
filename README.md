@@ -52,4 +52,5 @@ Run npm install to install the required npm packages
 If you have any question feel free to contact us by our githubs listed above.
 
 
-Link to deployed app:
+Link to deployed app 
+https://dmagzzz.github.io/Project2/
