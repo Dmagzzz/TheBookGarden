@@ -20,7 +20,11 @@ Book.init(
     },
 
     is_read: {
-      type: DataTypes.BOOLEAN
+      type: DataTypes.BOOLEAN,
+    },
+
+    thumbnail:{ 
+      type: DataTypes.STRING,
     },
 
     user_id: {
