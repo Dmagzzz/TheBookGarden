@@ -2,9 +2,12 @@
 
 # TheBookGarden 📚
 
-
 #
 # About The Project
+As a book reader
+I want to have an app that allows me to keep track the books I have read as well as leave a review. 
+So that I can gain the knowledge of the world 
+
 
 #
 # The Team 🚀
@@ -24,18 +27,9 @@
 #
 # Description
 
-*
+*An application that allows the user to keep track of the books they have read.
 
 #
-# Wire Frame
-
-
-
-#
-# Demo
-
-#### The screenshots listed below show the application previews:
-
 
 #
 # Usage
