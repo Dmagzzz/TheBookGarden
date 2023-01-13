@@ -44,4 +44,4 @@ Book.init(
   }
 );
 
-module.exports = Project;
+module.exports = Book;
