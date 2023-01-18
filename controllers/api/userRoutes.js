@@ -1,4 +1,3 @@
-import fetch from 'node-fetch';
 const router = require('express').Router();
 const { User } = require('../../models');
 
