@@ -15,17 +15,26 @@ Book.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    author: {
+      type: DataTypes.STRING,
+      
+    },
     ISBN: {
       type: DataTypes.INTEGER,
+      allowNull: false,
     },
 
     is_read: {
       type: DataTypes.BOOLEAN,
     },
 
-    thumbnail:{ 
+    description: {
       type: DataTypes.STRING,
     },
+
+    // thumbnail:{ 
+    //   type: DataTypes.STRING,
+    // },
 
     user_id: {
       type: DataTypes.INTEGER,
