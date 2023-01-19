@@ -1,7 +1,15 @@
-import fetch from 'node-fetch';
+//import fetch from 'node-fetch';
+const { response } = require('express');
+const { getBooks } = require('../../crud/getRequests');
+
 const router = require('express').Router();
 const { Book } = require('../../models');
 const withAuth = require('../../utils/auth');
+
+router.get('/', async (req, res) => {
+  const books = await getBooks(req.body.bookName);
+  res.json(books);
+});
 
 
 router.post('/', withAuth, async (req, res) => {
