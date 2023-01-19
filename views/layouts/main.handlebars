@@ -20,29 +20,22 @@
       <!-- Conditionally render login or logout links -->
       <nav class="navbar bg-body-primary">
         <div class="container-fluid">
-          <a href="/">My Library</a>
+          <a href="/" class="text-dark fs-1">My Library</a>
           {{#if logged_in}}
           <a href="/booksearch">Profile</a>
           <button class="no-button" id="logout"> Logout</button>
           {{else}}
-          <a href="/login"> Login</a>
+          <a href="/login" class="text-dark fs-4"> Login</a>
           {{/if}}
           <form class="d-flex" role="search">
             <input  id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button id="searchBtn" class="btn btn-outline-success" type="submit">Search</button>
+            <button id="searchBtn" class="btn btn-outline-dark" type="submit">Search</button>
           </form>
         </div>
       </nav>
     </header>
     <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->
-  <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
 </div>
       {{{ body }}}
     </main>
