@@ -1,17 +1,21 @@
 [
   {
-    "name": "Sal",
-    "email": "sal@hotmail.com",
-    "password": "password12345"
+    "1d": 1462,
+    "name": "dmancini87",
+    "email":"Dmancini87@gmail.com",
+    "password": "Password123"
   },
   {
-    "name": "Lernantino",
-    "email": "lernantino@gmail.com",
-    "password": "password12345"
+    "id": 1337,
+    "name": "user1317",
+    "email":"email@gmail.com",
+    "password": "password123"
+
   },
   {
-    "name": "Amiko",
-    "email": "amiko2k20@aol.com",
-    "password": "password12345"
+    "id": 1987,
+    "name": "user1987",
+    "email":"email2@gmail.com",
+    "password": "password123"
   }
 ]

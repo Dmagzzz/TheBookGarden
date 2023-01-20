@@ -14,9 +14,9 @@ const seedDatabase = async () => {
 
   for (const book of bookData) {
     await Book.create({
-      ...book,
+      ...Book,
       user_id: users[Math.floor(Math.random() * users.length)].id,
-    });
+    }); 
   }
 
   process.exit(0);
