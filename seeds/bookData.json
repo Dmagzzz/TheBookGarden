@@ -1,29 +1,29 @@
 [
   {
-    "id": 1462,
+    "id": 1,
     "name": "John Dies at the End",
     "author":  "David Wong",
-    "ISBN": 1250830567,
-    "is_read": "true",
+    "ISBN": 7,
+    "is_read": 1,
     "description": "",
-    "user_id": "1242"
+    "user_id": 1
   },
   {
-    "id": 1425,
+   "id": 2,
     "name": "Murder at Melrose Court",
     "author":  "Karen Menuhin",
-    "ISBN": 9798483081050,
-    "is_read": "true",
+    "ISBN": 9,
+    "is_read": 1,
     "description": "A 1920s Christmas Country House Historical Murder Mystery",
-    "user_id": "1242"
+    "user_id": 1
   },
   {
-    "id": 1234,
+    "id": 3,
     "name": "A Game of Thrones",
     "author":  "George R. R. Martin",
-    "ISBN": 9780553381689,
-    "is_read": "false",
+    "ISBN": 8,
+    "is_read": 1,
     "description": "A Game of Thrones is the first novel in A Song of Ice and Fire, a series of fantasy novels by the American author George R. R. Martin.",
-    "user_id": "1242"
+    "user_id": 1
   }
 ]
