@@ -1,6 +1,5 @@
 [
   {
-    "id": 1462,
     "name": "John Dies at the End",
     "author":  "David Wong",
     "ISBN": 1250830567,
@@ -9,7 +8,7 @@
     "user_id": "1242"
   },
   {
-    "id": 1425,
+   
     "name": "Murder at Melrose Court",
     "author":  "Karen Menuhin",
     "ISBN": 9798483081050,
@@ -18,7 +17,7 @@
     "user_id": "1242"
   },
   {
-    "id": 1234,
+  
     "name": "A Game of Thrones",
     "author":  "George R. R. Martin",
     "ISBN": 9780553381689,
