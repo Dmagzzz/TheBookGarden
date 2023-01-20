@@ -32,10 +32,6 @@ Book.init(
       type: DataTypes.STRING,
     },
 
-    // thumbnail:{ 
-    //   type: DataTypes.STRING,
-    // },
-
     user_id: {
       type: DataTypes.INTEGER,
       references: {
