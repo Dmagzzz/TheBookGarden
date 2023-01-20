@@ -8,7 +8,7 @@ async function getBooks(input) {
 
 async function getBookByIsbn(isbn) {
     const result = await fetch(`http://openlibrary.org/books.json?q=${isbn}`);
-    return result
+    return result;
 }
 
 module.exports = {
