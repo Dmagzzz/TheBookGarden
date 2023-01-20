@@ -27,7 +27,13 @@ So that I can gain the knowledge of the world
 #
 # Description
 
-*An application that allows the user to keep track of the books they have read.
+>An application that allows the user to keep track of the books they have read.
+
+>As a book reader
+>I want to have an app that allows me to keep track of the books I have read as well as leaving a review on the book. 
+
+>So that I can gain the knowledge of the world 
+
 
 #
 
@@ -42,6 +48,7 @@ So that I can gain the knowledge of the world
 
 * Or enjoy the deployed version at Heroku __________.
 
+
 #
 # Installation
 
@@ -51,16 +58,27 @@ So that I can gain the knowledge of the world
 
 * Run npm install to install the required npm packages
 
+
 #
 ## Questions
 
 * If you have any question feel free to contact us by our githubs listed above.
 
+
 #
 
+## Presentation Slide
+
+* https://docs.google.com/presentation/d/1J4VmVJdmiTI7lkx3SIHwiVx5fxCVbLoBhMJabTT5gSE/edit?usp=sharing
+
+
+##
+
+#
 ## Link to deployed app
 
 * https://dmagzzz.github.io/Project2/
+
 
 #
 ## License
