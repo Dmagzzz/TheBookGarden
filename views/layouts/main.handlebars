@@ -20,17 +20,13 @@
       <!-- Conditionally render login or logout links -->
       <nav class="navbar bg-body-primary">
         <div class="container-fluid">
-          <a href="/" class="text-dark fs-1">My Library</a>
+          <a href="/" class="text-dark fs-1">The Book Garden</a>
           {{#if logged_in}}
-          <a href="/booksearch">Profile</a>
+          <a href="/booksearch">My Library</a>
           <button class="no-button" id="logout"> Logout</button>
           {{else}}
           <a href="/login" class="text-dark fs-4"> Login</a>
           {{/if}}
-          <form class="d-flex" role="search">
-            <input  id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button id="searchBtn" class="btn btn-outline-dark" type="submit">Search</button>
-          </form>
         </div>
       </nav>
     </header>
