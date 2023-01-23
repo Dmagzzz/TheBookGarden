@@ -38,7 +38,14 @@ searchBtn.addEventListener('click', async function(event) {
             // console.log("ENTRIES!!!!", `${key}: ${value}`);
         });
        
-        return searchedBook.docs
+      const booklist = document.querySelector("#booklist")
+      searchedBook.docs.forEach(book => {
+        console.log("test", book)
+      const myDiv = document.createElement("div")
+        myDiv.textContent=book.title
+        booklist.append(myDiv)
+      })
+
     //    console.log(bookArr);
 
     //     console.log("look here", searchedBook.docs[0]);
