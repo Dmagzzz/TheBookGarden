@@ -1,5 +1,4 @@
 async function getBooks(input) {
-    // const input = searchInput.textContent;
     const result = await fetch("https://openlibrary.org/search.json?q=" + input);
     const books = await result.json();
     return books;

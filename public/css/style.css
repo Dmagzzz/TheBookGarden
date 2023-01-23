@@ -1,3 +1,7 @@
+* { 
+  text-decoration: none;
+}
+
 header, .project:not(:last-child) {
   background-color: #1b89bc;
   border-bottom: 1px solid #ccc;

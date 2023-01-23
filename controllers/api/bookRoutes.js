@@ -1,6 +1,4 @@
-
 const { response } = require('express');
-const { getBooks } = require('../../crud/getRequests');
 
 const router = require('express').Router();
 const { Book } = require('../../models');
