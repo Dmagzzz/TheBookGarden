@@ -5,6 +5,8 @@ async function getBooks(input) {
     return books;
 }
 
+
+
 async function getBookByIsbn(isbn) {
     const result = await fetch(`http://openlibrary.org/books.json?q=${isbn}`);
     return result;
@@ -36,18 +38,22 @@ searchBtn.addEventListener('click', async function(event) {
             // console.log("ENTRIES!!!!", `${key}: ${value}`);
         });
        
+      const booklist = document.querySelector("#booklist")
+      searchedBook.docs.forEach(book => {
+        console.log("test", book)
+      const myDiv = document.createElement("div")
+        myDiv.textContent=book.title
+        booklist.append(myDiv)
+      })
 
-       console.log(bookArr);
+    //    console.log(bookArr);
 
-        console.log("look here", searchedBook.docs[0]);
-        for(let i = 0; i < searchedBook.docs[i]; i++)
-        console.log("result", searchedBook.docs[i]);
+    //     console.log("look here", searchedBook.docs[0]);
+    //     for(let i = 0; i < searchedBook.docs[i]; i++)
+    //     console.log("result", searchedBook.docs[i]);
     
     } else {
         return ('Failed to Load Books!');
     } 
 });
 
-function renderBooks() {
-
-}
