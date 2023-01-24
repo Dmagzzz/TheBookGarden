@@ -19,7 +19,7 @@
 
 // const myBooks = JSON.parse(localStorage.getItem("myBooks")) || [];
 
-
+// display data on screen 
 searchBtn.addEventListener('click', async function(event) {
     event.preventDefault();
     
